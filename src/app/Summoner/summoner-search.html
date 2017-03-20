@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class=" box">
+    <form id="search">
+        <input #searchBox class="searchBox" id="search-box" onclick="key_down" autofocus="autofocus" />
+        <a [routerLink]="['/summoner-profile', this.summonerName]" routerLinkActive="active">
+            <button class="searchButton" id="searchButton" (click)="getSummonerName(searchBox.value)"><i class="w3-margin-left fa fa-search"></i></button>
+        </a>
+    </form>
+</div>
+<script>
+    $("#search").keyup(function (event) {
+        if (event.keyCode == 13) {
+            $("#searchButton").click();
+        }
+    });
+</script>

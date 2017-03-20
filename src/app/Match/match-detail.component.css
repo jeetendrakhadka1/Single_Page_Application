@@ -1,0 +1,8 @@
+.summonerName{
+  position: relative;
+  top: 8%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  font: normal 50px/normal "Times New Roman", Times, serif;
+  text-decoration: none;
+}

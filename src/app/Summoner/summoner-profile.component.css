@@ -1,0 +1,44 @@
+.summonerName{
+  position: relative;
+  top: 8%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  font: normal 50px/normal "Times New Roman", Times, serif;
+  text-decoration: none;
+  
+}
+
+hr{
+  border: none;
+  height: 2px;
+  width: 75%;
+  background-color: #333;
+}
+
+.stats{
+  position: fixed;
+  top: 18%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.gameTable{
+  position: relative;
+  left: 12%;
+  border: 2px solid black;
+  height: 1px;
+  width: 75%;
+  margin-bottom: 10px;
+  background-color: lightgrey;
+}
+a{
+  color: black;
+}
+
+.verticalLine {
+  height: 80px;
+  border-left: thick solid red;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
